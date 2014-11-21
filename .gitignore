@@ -1,0 +1,6 @@
+*.iso
+iso-mount
+iso-extract
+iso-modified
+
+*~
