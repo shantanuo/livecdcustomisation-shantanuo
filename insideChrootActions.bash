@@ -12,6 +12,9 @@ wget http://saraswaticlasses.net/download/akshar.ttf -O /usr/share/fonts/truetyp
 fc-cache --system-only
 # wget the new version from http://extensions.libreoffice.org/extension-center/marathi-spellchecker/releases/1.3/libre_office_4_autotext.oxt
 unopkg add --shared /custom/libre_office_4.oxt
+# chagne os interface to marathi
+# goto System settings - Language Support - Install/ Remove Languages - select "marathi"
+#  - apply changes - drag marathi to first place - Apply System-Wide
 
 glib-compile-schemas /usr/share/glib-2.0/schemas/
 
