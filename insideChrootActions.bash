@@ -15,6 +15,8 @@ unopkg add --shared /custom/libre_office_4.oxt
 # chagne os interface to marathi
 # goto System settings - Language Support - Install/ Remove Languages - select "marathi"
 #  - apply changes - drag marathi to first place - Apply System-Wide
+# or use the following command to install marathi interface of lib office
+# sudo apt-get install libreoffice-l10n-mr
 
 glib-compile-schemas /usr/share/glib-2.0/schemas/
 
